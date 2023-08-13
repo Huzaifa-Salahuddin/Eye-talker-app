@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://static.thenounproject.com/png/777907-200.png">
+
+    <title>Eye Talker App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="{{url_for('static', filename='cover.css')}}">
+
+    <link href="cover.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+    <div class="layer">
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+      <center><header class="masthead mb-auto">
+        <div class="inner">
+         <h2 class="masthead-brand">Eye Talker</h2> <br><br><br><br><br>
+          <main role="main" class="inner cover" >
+            <img src="{{url_for('static', filename='file.jpg')}}" alt="image">
+            <br>
+            <div class="lead" style="width:500px ; height: 500px;">
+              <h3>Output: </h3>
+             
+              <h4><u>{{data}}</u></h4>
+                <br><br><a href="{{url_for('index')}}" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Test Another Image</a>
+              
+            </div>
+          </main>
+        </center>
+        </div>
+      </header> <br>
+
+        
+    
+      <footer class="mastfoot mt-auto">
+        
+      </footer>
+    </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ 
+  </body>
+</html>
